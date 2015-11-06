@@ -4,7 +4,7 @@ echo "MAIN: Removing previous versions of psmouse-byd..."
 sudo dkms remove psmouse/$DLKM --all
 echo "MAIN: Building current driver from source files..."
 sudo dkms build psmouse/$DLKM
-if [[ $? == 0 ]]; then
+if [ $? -eq 0 ]; then
         echo "MAIN: Installing the driver"
         sudo dkms install psmouse/$DLKM
         sudo rmmod -v psmouse
