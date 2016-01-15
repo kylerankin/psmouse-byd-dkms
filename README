@@ -5,3 +5,11 @@ This repository is just a repackaging of the BYD psmouse patches that are floati
 INSTALL
 
 To install, copy the current directory to /usr/src/psmouse-byd-0.1 and run /usr/src/psmouse-byd-0.1/install.sh. This should remove any old psmouse dkms modules and rebuild and install this one. Alternatively you can inspect the install.sh to see what dkms commands were used.
+
+Qubes
+
+If you are using Qubes, the default Fedora kernel has compiled the psmouse driver into the kernel. If you are using 3.1, however, you can pull a modular kernel from unstable with:
+
+sudo qubes-dom0-update --enablerepo=qubes-dom0-unstable kernel-4.1.13-8.1.pvops.qubes.x86_64 kernel-devel-4.1.13-8.1.pvops.qubes.x86_64 kernel-qubes-vm-4.1.13-8.1.pvops.qubes.x86_64
+
+When you reboot you'll need to select this kernel from the Xen submenu. Then you can build the DKMS module as normal.
