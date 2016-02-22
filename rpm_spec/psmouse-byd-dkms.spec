@@ -1,5 +1,5 @@
 Name:		psmouse-byd-dkms
-Version:	0.1
+Version:	0.2
 Release:	1%{?dist}
 Summary:	psmouse module with BYD protocol support
 
