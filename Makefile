@@ -1,4 +1,4 @@
-DLKM=byd-0.1
+DLKM=byd-0.2
 
 INSTALL_SRC_DIR = $(DESTDIR)/usr/src/psmouse-$(DLKM)
 
