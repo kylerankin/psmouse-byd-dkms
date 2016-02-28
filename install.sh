@@ -1,4 +1,4 @@
-DLKM=byd-0.1
+DLKM=byd-0.2
 KERN=$(uname -r)
 echo "MAIN: Removing previous versions of psmouse-byd..."
 sudo dkms remove psmouse/$DLKM --all

@@ -4,7 +4,7 @@ This repository is just a repackaging of the BYD psmouse patches that are floati
 
 INSTALL
 
-To install, copy the current directory to /usr/src/psmouse-byd-0.1 and run /usr/src/psmouse-byd-0.1/install.sh. This should remove any old psmouse dkms modules and rebuild and install this one. Alternatively you can inspect the install.sh to see what dkms commands were used.
+To install, copy the current directory to /usr/src/psmouse-byd-0.2 and run /usr/src/psmouse-byd-0.2/install.sh. This should remove any old psmouse dkms modules and rebuild and install this one. Alternatively you can inspect the install.sh to see what dkms commands were used.
 
 Qubes
 
